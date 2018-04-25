@@ -1,0 +1,328 @@
+#phoneScreen {
+	border: 1px solid black;
+	width: 500px;
+	height: 720px;
+	overflow: hidden;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+#animScreen {
+	border: 1px solid black;
+	width: 500px;
+	height: 720px;
+	overflow: hidden;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+#phoneStatus {
+	width: 500px;
+	height: 36px;
+	border: 0.5px solid white;
+	background-color: #595959;
+	position: absolute;
+	z-index: 1;
+}
+
+#statusBar {
+	position: relative;
+	float: right;
+	padding: 10px;
+	display: inline;
+}
+
+#statusBar img {
+	float: left;
+	padding: 5px 5px 0 5px;
+	position: relative;
+	z-index: 2;
+}
+
+#statusBar p {
+	float: left;
+	top: -20px;
+	padding: 5px 0 0 0;
+	position: relative;
+	color: #ffffff;
+}
+
+#bgImg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 500px;
+	height: 720px;
+}
+
+#appScreen {
+	width: 500px;
+	height: 720px;
+	position: absolute;
+	display: flex;
+}
+
+.appB {
+	position: absolute;
+	font: 12px Arial;
+}
+
+.appB img {
+	position: relative;
+	z-index: 1;
+}
+
+.appB p {
+	position: absolute;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px #000000;
+}
+
+#sleepButton {
+	width: 60x;
+	height: 60px;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	left: 220px;
+	top: 655px;
+	z-index: 2;
+}
+
+#application {
+	left: -35px;
+	top: -35px;
+	width: 430px;
+	height: 550px;
+	position: absolute;
+	padding: 70px;
+	overflow: auto;
+}
+
+#applicationFade {
+	width: 500px;
+	height: 720px;
+	position: absolute;
+	-webkit-transition: all 2s ease-in;
+	transition: all 2s ease-in;
+	background: #000000;
+}
+
+#applicationFade:hover {
+	opacity: 0;
+}
+
+#messageBtn {
+	float: top left;
+	width: 430px;
+	height: 30px;
+	background-color: turquoise;
+	top: 80px;
+	left: 70px;
+	position: absolute;
+	z-index: 2;
+	border: 1px solid black;
+}
+
+.messageMatch {
+	width: 430px;
+}
+
+.messageBox {
+	width: 300px;
+	border: 1px solid black;
+	position: relative;
+	float: left;
+}
+
+#dateDiv {
+	width: 450px;
+	height: 450px;
+	top: 120px;
+	left: 60px;
+	position: absolute;
+	z-index: 2;
+}
+
+#userData {
+	width: 450px;
+	height: 100px;
+	top: 600px;
+	position: absolute;
+	overflow: auto;
+}
+
+.gymBtn {
+	width: 420px;
+	height: 200px;
+}
+
+#statPopup {
+	width: 300px;
+	height: 50px;
+	z-index: 3;
+	top: 600px;
+	left: 100px;
+	position: absolute;
+	border: 1px solid black;
+	background-color: white;
+	text-align: center;
+}
+
+#confirmPopup {
+	width: 300px;
+	height: 50px;
+	z-index: 4;
+	top: 0px;
+	left: 700px;
+	position: absolute;
+	border: 1px solid black;
+	background-color: white;
+	text-align: center;
+}
+
+#shopDisplay {
+	top: 85px;
+	left: 350px;
+	width: 150px;
+	height: 40px;
+	position: absolute;
+	border: 2px solid black;
+	background-color: #89B2B8;
+	z-index: 2;
+}
+
+#shopDisplay p {
+	position: relative;
+	font-size: 34px;
+	color: black;
+	top: -30px;
+	text-align: center;
+}
+
+.shopItem {
+	position: relative;
+}
+
+.shopItem button { 
+	float: right;
+	background-color: #89B2B8;
+}
+
+#dateButton {
+	width: 500px;
+	height: 40px;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	top: 560px;
+	z-index: 1;
+}
+
+#partnerButton {
+	width: 500px;
+	height: 40px;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	top: 520px;
+	z-index: 1;
+}
+
+#msgButton {
+	width: 500px;
+	height: 40px;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	top: 600px;
+	z-index: 1;
+}
+
+#giftButton {
+	width: 500px;
+	height: 40px;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	top: 640px;
+	z-index: 1;
+}
+
+#fightButton {
+	width: 500px;
+	height: 40px;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	top: 640px;
+	z-index: 1;
+}
+
+#healthDisplay {
+	width: 500px;
+	height: 40px;
+	position: absolute;
+	text-align: center;
+	top: 550px;
+	z-index: 2;
+}
+
+#ehealthDisplay {
+	width: 500px;
+	height: 40px;
+	position: absolute;
+	text-align: center;
+	top: 73px;
+	z-index: 2;
+}
+
+#enemyTimer {
+	width: 250px;
+	height: 50px;
+	position: absolute;
+	top: 20px;
+	left: 120px;
+	z-index: 2;
+}
+
+#playerTimer {
+	width: 250px;
+	height: 50px;
+	position: absolute;
+	top: 500px;
+	left: 120px;
+	z-index: 2;
+}
+
+progress::-webkit-progress-bar {
+	background-color: rgba(255,0,0,1) !important;
+}
+
+#backButton {
+	width: 500px;
+	height: 40px;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	top: 680px;
+	z-index: 1;
+}
+
+#offPhone {
+	width: 500px;
+	height: 200px;
+	position: absolute;
+	background-color: white;
+	z-index: 3;
+	top:730px;
+}
+
+.splash {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 70px;
+	user-select: none;
+	-webkit-user-select: none;
+}
